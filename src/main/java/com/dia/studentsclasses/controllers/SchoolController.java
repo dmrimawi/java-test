@@ -96,6 +96,7 @@ public class SchoolController {
 				}
 			}
 		}
+		System.out.println("Hello there!");
 		return "redirect:/student/" + stdid;
 	}
 }
